@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 86.75rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  position: sticky;
+  background-color: #ffffff;
+  top: 0;
+}
+
+.header_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav_ul {
+  display: flex;
+  gap: 2.188rem;
+}
+
+.header_nav_ul li {
+    list-style: none;
+}
+
+.header_nav_ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #000000;
+}
+
+.header_nav_ul li a:hover {
+  color: rgba(38, 50, 56, 0.73);
+  transition: color 1s ease;
+}
+
+.header_nav_ul li a:active
+{
+  transform: skewX();
+}
+
+.lets_talk {
+  padding: 1.063rem 3.563rem;
+  border: 0.125rem solid #263238;
+  border-radius: 0.313rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+  color: #000000;
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.lets_talk:hover {
+  background-color: #263238;
+  color: #ffff;
+  transition: color 1.5s ease, background-color 1.5s ease;
+  transition: 1s ease;
+}
+
+/* HERO SECTION */
+
+.hero_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../img/bulb.svg");
+  background-repeat: no-repeat;
+  background-position: top 9.25rem left 24.875rem;
+}
+
+.hero_items_content {
+  width: 34.5rem;
+}
+.hero_items_content h2 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.hero_items_content p {
+  margin-top: 2.5rem;
+  margin-bottom: 5.813rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #8f95a5;
+}
+
+.hero_items_content a {
+  padding: 2rem 7.313rem 2rem 7.375rem;
+  text-decoration: none;
+  background: #263238;
+  border-radius: 0.938rem;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+  color: #ffffff;
+}
+
+.hero_items_content a:hover {
+  background: #ffffff;
+  border: 0.063rem solid #000000;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.938rem;
+  color: #000000;
+  transition: all 1s ease;
+}
+
+/* SKILLS SECTION */
+
+.skills_items {
+  padding-bottom: 6.25rem;
+}
+
+.sills_items_title {
+  padding: 9.188rem 0rem 6rem 0rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.skills_items_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.speaking {
+  width: 26.188rem;
+  background: #f5f5f5;
+  border-radius: 0.625rem;
+}
+
+.speaking_img {
+  padding: 2.188rem 1.375rem 0rem 1.438rem;
+}
+
+.speaking_content {
+  width: 23.899rem;
+  padding-left: 2.688rem;
+  padding-bottom: 0.625rem;
+}
+
+.speaking_content h4 {
+  padding-top: 1.238rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 5rem;
+  color: #263238;
+}
+
+.speaking_content p {
+  padding-top: 0.313rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.speaking_a {
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+}
+
+.learn_more {
+  padding: 1.063rem 3.938rem 1rem 4rem;
+  background: #263238;
+  border-radius: 0.313rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+}
+
+.learn_more:hover {
+  background: #f5f5f5;
+  border: 0.063rem solid #000000;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  color: #000000;
+  transition: all 1s ease;
+}
+
+.skills_items_writing_reading_listening {
+  width: 55.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.writing {
+  width: 27.125rem;
+  background: #f5f5f5;
+  border-radius: 0.625rem;
+}
+
+.writing_img {
+  padding: 0.25rem 1.188rem 0rem 7.625rem;
+}
+
+.reading_img {
+  padding: 0.563rem 3.938rem 0rem 0.063rem;
+}
+
+.writing_content {
+  width: 23.899rem;
+  margin-top: -3.688rem;
+  padding: 0rem 0rem 0rem 2.625rem;
+}
+
+.writing_content h4 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 5rem;
+  color: #263238;
+}
+
+.Reading_content {
+  padding-top: 2.75rem;
+}
+
+.writing_content p {
+  font-weight: 400;
+  padding-bottom: 3.125rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.listening {
+  width: 55.313rem;
+  margin-top: 1.25rem;
+  background: #f5f5f5;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listening_content {
+  width: 23.438rem;
+  padding-left: 3rem;
+  align-self: flex-start;
+  padding-top: 2.688;
+}
+
+.listening_content h4 {
+  margin-top: 2.688rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 5rem;
+  color: #263238;
+}
+
+.listening_content p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.listening_a {
+  margin-top: 3.125rem;
+}
+
+/* ABOUT US SECTION */
+
+.about_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 8.813rem 0rem 6.25rem 0rem;
+}
+
+.about_items_content {
+  width: 40rem;
+}
+.about_items_content h3 {
+  padding-top: 1.25rem;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.about_items_content_disc {
+  padding-top: 1.438rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #8f95a5;
+}
+
+.about_items_content_num {
+  width: 38.125rem;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pupils_num {
+  text-align: center;
+}
+
+.num {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #2a3246;
+}
+
+.pupils {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #8f95a5;
+}
+
+/* PRICING SECTION */
+
+.pricing_items {
+  padding: 0rem 0rem 8.563rem 0rem;
+}
+
+.pricing_items_title h3 {
+  padding: 6.938rem 0rem 4.563rem 0rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.pricing_item_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 26.25rem;
+}
+
+.card_img {
+  text-align: center;
+}
+
+.Live_img {
+  padding-top: 1.875rem;
+}
+
+.card_content h4 {
+  padding-top: 3.375rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 3rem;
+  color: #263238;
+}
+
+.personal_content h4 {
+  padding-top: 1.625rem;
+}
+
+.card_content_disc {
+  padding: 1.188rem 0rem 1.813rem 0rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #8f95a5;
+}
+
+.Live_desc {
+  padding-bottom: 3.563rem;
+}
+
+.card_content_price {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background: #eeeeee;
+  border-radius: 0.313rem;
+}
+
+.card_price {
+  background: #eeeeee;
+  border-radius: 0.313rem;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.813rem;
+  color: #263238;
+}
+
+.card_month {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  color: #546269;
+}
+
+/* CONTACT SECTION */
+
+.contact_items {
+  padding-top: 8.563rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_content {
+  width: 47.875rem;
+}
+.contact_content h3 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+.contact_content p {
+  padding: 2.313rem 0rem 3.25rem 0rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #8f95a5;
+}
+
+.contact_content_inputs input {
+  width: 28.125rem;
+  padding: 1.625rem 0rem 1.875rem 2.063rem;
+  border: 0.063rem solid #8f95a5;
+  border-radius: 0.6rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.contact_content_inputs input:focus {
+  background-color: #131212;
+  color: rgb(255, 255, 255);
+  transition: color 1.5s ease, background-color 1.5s ease;
+}
+
+.contact_content_inputs button {
+  padding: 1.563rem 5.125rem 1.563rem 5.188rem;
+  background: #263238;
+  border-radius: 0.6rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+}
+.contact_content_inputs button:hover {
+  background-color: #ffffff;
+  color: rgb(7, 7, 7);
+  transition: color 1.5s ease, background-color 1.5s ease;
+}
+
+.footer_items {
+  padding: 1.938rem 0rem 4rem 0rem;
+  display: flex;
+  justify-content: space-between    ;
+  align-items: center;
+}
+
+.footer_hr {
+  height: 0.188rem;
+  background: #c4c4c4;
+}
+
+.footer_ul {
+  display: flex;
+  gap: 1.563rem;
+}
+
+.list
+{
+    list-style: none;
+}
+
+.footer_li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #8f95a5;
+}
+
+.list {
+  text-decoration: none;
+}
+
+.footer_li a:hover
+{
+    color: #000000;
+    transition: color 1s ease;
+}
